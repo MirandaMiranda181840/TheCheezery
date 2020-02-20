@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="40dp"
+        android:src="@drawable/imagen1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/purpleishGrey"
+        android:textSize="20dp"
+        android:layout_marginVertical="12dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/purpleishGrey"
+        android:textSize="20dp"
+        android:layout_marginVertical="12dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"
+            android:layout_marginHorizontal="50dp"
+            android:textColor="@color/purpleishGrey"
+            android:textSize="20dp"
+            android:layout_marginVertical="12dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginHorizontal="50dp"
+            android:textColor="@color/purpleishGrey"
+            android:textSize="20dp"
+            android:layout_marginVertical="12dp"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purpleishGrey"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="12dp"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:text="I have read and accept terms, and conditions of The Cheezery"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="SIGN IN"
+        android:background="@drawable/boton_redondo"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:paddingHorizontal="50dp"
+        android:layout_marginVertical="20dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

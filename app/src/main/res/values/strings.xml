@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheCheezery</string>
+    <string name="welcome">Welcome to The Cheezery!</string>
+    <string name="description">Home of the most wonderful desserts ever seen (and tested) by the human being.</string>
+    <string name="get_started">Get started!</string>
+
+    <!-- fonts families -->
+    <string name="light">sans-serif-light</string>
+    <string name="condensed">sans-serif-condensed</string>
+    <string name="thin">sans-serif-thin</string>
+    <string name="medium">sans-serif-medium</string>
+    <string name="regular">sans-serif</string>
+</resources>
