@@ -10,4 +10,13 @@
     <string name="thin">sans-serif-thin</string>
     <string name="medium">sans-serif-medium</string>
     <string name="regular">sans-serif</string>
+
+    <!-- menu fields -->
+    <string name="menu_title">OUR MENU</string>
+    <string name="btn1">Cold Drinks</string>
+    <string name="btn2">Hot Drinks</string>
+    <string name="btn3">Sweets</string>
+    <string name="btn4">Salties</string>
+    <string name="btn5">Combos</string>
+    <string name="btn6">Personalized</string>
 </resources>
