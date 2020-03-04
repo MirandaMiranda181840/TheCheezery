@@ -11,13 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_registrar.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, RegistroActivity::class.java)
+        //Código para iniciar otra activity
+        btn_getstarted.setOnClickListener {
+            var intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
-
-
         }
+
+        //var prueba: Intent? = null
+
 
     }
 }

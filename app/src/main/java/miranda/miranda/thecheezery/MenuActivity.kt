@@ -3,7 +3,6 @@ package miranda.miranda.thecheezery
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class MenuActivity : AppCompatActivity() {
@@ -12,46 +11,30 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        btn_coldDrinks.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, ColdDrinks::class.java)
+        btn_colddrinks.setOnClickListener {
+            var intent = Intent(this, ProductosActivity::class.java)
             startActivity(intent)
         }
 
-        btn_hotDrinks.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, HotDrinks::class.java)
+        btn_hotdrinks.setOnClickListener {
+            var intent = Intent(this, hotdrinks_activity::class.java)
             startActivity(intent)
         }
 
-        btn_sweets.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, Sweets::class.java)
+        btn_salties.setOnClickListener {
+            var intent = Intent(this, SaltiesActivity::class.java)
             startActivity(intent)
         }
 
-        btn_salties.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, Salties::class.java)
+        btn_sweets.setOnClickListener {
+            var intent = Intent(this, sweets_activity::class.java)
             startActivity(intent)
         }
-
-        btn_combos.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, Combos::class.java)
-            startActivity(intent)
-        }
-
-        btn_personalized.setOnClickListener{
-            //setContentView(R.layout.activity_registro)
-            var intent = Intent(this, Personalized::class.java)
-            startActivity(intent)
-        }
-
 
     }
-
-
-
-
 }
+
+
+
+
+

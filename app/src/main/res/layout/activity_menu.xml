@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity"
-    android:orientation="vertical">
-
+    tools:context=".MenuActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -19,7 +18,8 @@
         android:text="@string/menu_title"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-light"/>
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -30,23 +30,24 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="10dp">
+            android:layout_marginBottom="10dp"
+            >
 
             <Button
-                android:id="@+id/btn_coldDrinks"
+                android:id="@+id/btn_colddrinks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:background="@color/colorPrimary"
-                android:fontFamily="sans-serif"
+                android:text="@string/btn1"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:text="@string/btn1"
-                android:textColor="@color/dustyWhite"
-                android:textSize="20sp" />
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimary"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/dustyWhite"/>
 
             <Button
-                android:id="@+id/btn_hotDrinks"
+                android:id="@+id/btn_hotdrinks"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -63,7 +64,8 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="10dp">
+            android:layout_marginBottom="10dp"
+            >
 
             <Button
                 android:id="@+id/btn_sweets"
@@ -96,7 +98,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="10dp">
+            >
 
             <Button
                 android:id="@+id/btn_combos"
@@ -125,8 +127,6 @@
                 android:textSize="20sp" />
 
         </TableRow>
-
     </TableLayout>
-
 
 </LinearLayout>

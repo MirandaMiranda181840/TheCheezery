@@ -11,12 +11,24 @@
     <string name="medium">sans-serif-medium</string>
     <string name="regular">sans-serif</string>
 
+    <!-- register fields -->
+
+    <string name="name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="conditions">I have read and accept
+        terms and conditions of the Cheezery</string>
+    <string name="sign_in">Sign in</string>
+
+
     <!-- menu fields -->
     <string name="menu_title">OUR MENU</string>
-    <string name="btn1">Cold Drinks</string>
-    <string name="btn2">Hot Drinks</string>
+    <string name="btn1">Cold drinks</string>
+    <string name="btn2">Hot drinks</string>
     <string name="btn3">Sweets</string>
     <string name="btn4">Salties</string>
     <string name="btn5">Combos</string>
     <string name="btn6">Personalized</string>
+
 </resources>

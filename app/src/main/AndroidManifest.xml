@@ -9,21 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Personalized"></activity>
-        <activity android:name=".Combos" />
-        <activity android:name=".Salties" />
-        <activity android:name=".Sweets" />
-        <activity android:name=".ColdDrinks" />
-        <activity android:name=".HotDrinks" />
-        <activity android:name=".MenuActivity">
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".SaltiesActivity" />
+        <activity android:name=".sweets_activity" />
+        <activity android:name=".salties_Activity" />
+        <activity android:name=".salties_activity" />
+        <activity android:name=".hotdrinks_activity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ProductosActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroActivity" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

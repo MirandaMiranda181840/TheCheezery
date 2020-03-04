@@ -5,4 +5,7 @@
     <color name="colorAccent">#FE2BD0</color>
     <color name="purpleishGrey">#644B5E</color>
     <color name="dustyWhite">#EBEBEB</color>
+    <color name="descripcion">#262525</color>
+    <color name="nombre">#B60089</color>
+    <color name="precio">#9E2E81</color>
 </resources>
