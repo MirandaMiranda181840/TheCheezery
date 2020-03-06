@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_menu.*
+import kotlinx.android.synthetic.main.activity_combo.*
 
 class MenuActivity : AppCompatActivity() {
 
@@ -28,6 +29,11 @@ class MenuActivity : AppCompatActivity() {
 
         btn_sweets.setOnClickListener {
             var intent = Intent(this, sweets_activity::class.java)
+            startActivity(intent)
+        }
+
+        btn_combos.setOnClickListener {
+            var intent = Intent(this, ComboActivity::class.java)
             startActivity(intent)
         }
 
